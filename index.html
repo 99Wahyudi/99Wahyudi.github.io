@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-blue-950">
+
+    <div id="contact"
+        class="bg-indigo-600 fixed px-3 py-6 text-white text-xl right-6 top-1/2 transform -translate-y-1/2 rounded-full shadow-lg shadow-indigo-600/50">
+        <a class="block mb-3" href="mailto:9wahyu99@gmail.com" target="_blank" rel="noopener noreferrer"><i
+                class="bi bi-envelope-at-fill"></i></a>
+        <a class="block mb-3" href="https://www.linkedin.com/in/wahyudi-yd/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a class="block" href="https://github.com/99Wahyudi" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+    </div>
+
+    <nav class="bg-blue-950 p-4 fixed w-full z-10">
+        <div class="bg-blue-950 flex items-center justify-center">
+            <div class="hidden md:flex md:items-center md:space-x-4">
+                <a href="#" class="text-white font-bold text-lg">YUDI</a>
+                <a href="#about" class="text-white hover:font-medium transition-100">About Me</a>
+                <a href="#experience" class="text-white hover:font-medium transition-100">Experiences</a>
+                <a href="#projects" class="text-white hover:font-medium transition-100">Projects</a>
+            </div>
+            <div class="flex md:hidden right-0">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden mt-4 transition duration-300">
+            <a href="#" class="block text-white py-2 font-bold text-lg">YUDI</a>
+            <a href="#about" class="block text-white py-2">About Me</a>
+            <a href="#experience" class="block text-white py-2">Experiences</a>
+            <a href="#projects" class="block text-white py-2">Projects</a>
+        </div>
+    </nav>
+
+    <div class="h-screen bg-blue-950 flex justify-center items-center">
+        <div class="bg-black bg-opacity-30 rounded-xl flex border-solid border-4 border-indigo-600 md:pr-16">
+            <div class="relative md:w-40 md:h-80 h-48 rounded">
+                <div
+                    class="bg-blue-950 border-box rounded-full overflow-hidden absolute 
+                    md:w-60 md:h-60 w-30 h-30 -right-1/2 transform -translate-x-1/2 top-1/2 transform -translate-y-1/2
+                    border-solid border-4 border-indigo-600 p-2
+                    md:block hidden
+                    ">
+                    <img src="pp-crop.jpg" class="w-full rounded-full" alt="" srcset="">
+                </div>
+            </div>
+            <div class="flex rounded px-2 md:pr-2 flex-col justify-center   "
+                style="font-family: 'Poppins', sans-serif; !important">
+                <h1 class="lg:text-6xl text-3xl font-bold text-white typewriter">
+                    HALLO THERE !
+                </h1>
+                <p class="text-slate-200 lg:text-lg md:text-md">
+                    I'm Yudi, a software developer
+                </p>
+                <div>
+                    <a href="#about" class="inline-block bg-indigo-600 px-2 py-1 rounded mt-5 text-white">
+                        About Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-blue-950" id="about">
+        <h1 class="text-center text-white text-4xl font-bold">About Me</h1>
+        <div class="lg:w-6/12 md:w-10/12 mx-auto mt-3 text-white text-xl font-thin text-center mb-8 about-text relative bg-black bg-opacity-30 p-6 rounded">
+            <p>Hi, my name is Wahyudi. Currently i am an informatics student at UPN Veteran Jawa Timur. I have solid
+                background with web development, especially using React.JS and Express.JS. Now i have interest to study
+                on machine learning and mobile development.</p>
+        </div>
+    </div>
+
+    <div class="lg:w-6/12 mx-auto md:w-10/12" id="experience">
+        <div class="text-white px-8">
+            <h1 class="text-center mt-20 text-white text-4xl font-bold mb-5">Experience</h1>
+            <ul class=" gap-5 ">
+                <li class="mb-8 relative">
+                    <div class="absolute -left-5 top-4 -bottom-12 border-l-2 border-indigo-600"></div>
+                    <div class="w-3 h-3 rounded-full bg-indigo-600 absolute -left-6 top-2"></div>
+                    <p class="font-bold mb-2">Feb 2023 - Jul 2023</p>
+                    <p>Machine Learning Engineer - Internship</p>
+                    <p>Bangkit Academy</p>
+                    <p>-</p>
+                    <div>
+
+                        Learn how to create machine learning model. <br>
+
+                        Optimizing machine learning model. <br>
+
+                        Create machine learning model with tensorflow.
+                    </div>
+                </li>
+                <li class="mb-8 relative">
+                    <div class="absolute -left-5 top-4 -bottom-12 border-l-2 border-indigo-600"></div>
+                    <div class="w-3 h-3 rounded-full bg-indigo-600 absolute -left-6 top-2"></div>
+                    <p class="font-bold mb-2">Jan 2019 - Mar 2019</p>
+                    <p>Web Content Writer - Internship</p>
+                    <p>Yoisoweb</p>
+                    <p>Kediri, East Java, Indonesia</p>
+                    <div>
+                        Responsible for writing content of client website.
+                        Learn about SEO, digital marketing, and web development using Wordpress.</div>
+                </li>
+                <li class="mb-8 relative">
+                    <div class="absolute -left-5 top-4 -bottom-12 null"></div>
+                    <div class="w-3 h-3 rounded-full bg-indigo-600 absolute -left-6 top-2"></div>
+                    <p class="font-bold mb-2">Nov 2018 - Jan 2019</p>
+                    <p>Fullstack Web Developer - Internship</p>
+                    <p>CV. DJunsoft</p>
+                    <p>Tulungagung, East Java, Indonesia</p>
+                    <div>
+
+                        Learn about responsive design in web development.
+
+                        Learn how to make an interactive website using javascript.
+
+                        Learn and develop full stack web apps using PHP, especially CodeIgniter framework, CSS,
+                        JavaScript,
+                        and MySQL.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-20" id="projects">
+        <h1 class="text-center text-white text-4xl font-bold mb-6">My Projects</h1>
+        <div class="lg:w-8/12 md:w-10/12 mx-auto p-2 grid lg:grid-cols-2 mc:grid-cols-1 gap-10 p-8">
+            <div class="bg-black bg-opacity-30 rounded overflow-hidden transition-100">
+                    <a href="https://github.com/99Wahyudi/quiz-app.git" target="_blank" class="block">
+                    <img src="quiz-app.png" alt="" class="w-full h-60 object-cover  rounded-b-lg">
+                    <div class="p-4">
+                        <h4 class="text-xl text-white font-medium">Quizz App</h4>
+                        <p class="text-white">An app for creating online quizz build with mern stack.</p>
+                        <a href="https://drive.google.com/file/d/10NFscRcydUdzdtbDC_fofGDZSb1IF3dd/view?usp=sharing" target="_blank" class="text-white inline-block mt-3">Link video</a>
+                    </div>
+                </a>
+            </div>    
+            <div class="bg-black bg-opacity-30 rounded overflow-hidden transition-100">
+                <a href="https://github.com/99Wahyudi/booking-app.git" target="_blank">
+                    <img src="booking-app.png" alt="" class="w-full h-60 object-cover  rounded-b-lg">
+                    <div class="p-4">
+                        <h4 class="text-xl text-white font-medium">Booking App</h4>
+                        <p class="text-white">Simple booking app for vacation place build with mern stack</p>
+                        <a href="https://drive.google.com/file/d/13bw5KQcvJ35sglm3iRNdS3OJI_zbsbJ5/view?usp=sharing" class="text-white inline-block mt-3">Link video</a>
+                    </div>
+                </a>
+            </div>
+            <div class="bg-black bg-opacity-30 rounded overflow-hidden transition-100" style="">
+                <a href="https://github.com/99Wahyudi/chat-app.git" target="_blank" rel="noopener noreferrer">
+
+                    <img src="chat-app.png" class="w-full h-60 object-cover  rounded-b-lg" alt="">
+                    <div class="p-4">
+                        <h4 class="text-xl text-white font-medium">Chat App</h4>
+                        <p class="text-white">A realtime chat app build with express.js</p>
+                        <a href="https://drive.google.com/file/d/162gCNAsKEn-9DtzOVgyIQ7VT-naGONRU/view?usp=sharing" class="text-white inline-block mt-3">Link video</a>
+                    </div>
+                </a>
+            </div>
+            <div class="bg-black bg-opacity-30 rounded overflow-hidden transition-100">
+                <a href="https://github.com/99Wahyudi/budgeting-app.git" target="_blank" rel="noopener noreferrer">
+                    <div>
+                        <img src="budget-app.png" alt="" class="w-full h-60 object-cover rounded-b-lg">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-xl text-white font-medium">Budgeting App</h4>
+                        <p class="text-white">An app to managing budget build with react.js</p>
+                        <a href="https://drive.google.com/file/d/1mqS6FzgGJ0LroOcmgU3JKVsggeb7hQ25/view?usp=sharing" class="text-white inline-block mt-3">Link video</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center text-white mb-10">
+        <a target="_blank" class="mx-auto bg-indigo-600 hover:bg-indigo-700 py-3 px-6 font-bold rounded" href="https://github.com/99Wahyudi">More On Github <i class="bi bi-arrow-right-short"></i></a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const mobileMenuButton = document.getElementById("mobile-menu-button");
+            const mobileMenu = document.getElementById("mobile-menu");
+
+            mobileMenuButton.addEventListener("click", function () {
+                mobileMenu.classList.toggle("hidden");
+            });
+        });
+    </script>
+</body>
+
+</html>
